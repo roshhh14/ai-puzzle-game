@@ -1,0 +1,48 @@
+body{
+    text-align:center;
+    background:#111;
+    color:white;
+    font-family:Arial;
+}
+
+video{
+    width:600px;
+    border:5px solid cyan;
+    border-radius:20px;
+    transform: scaleX(-1);
+}
+#puzzle-container{
+    display:grid;
+    grid-template-columns: repeat(3, 200px);
+    gap:0px;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.piece{
+    width:200px;
+    height:150px;
+    border:1px solid cyan;
+}
+.piece{
+    cursor: grab;
+}
+#finish{
+    padding:10px 20px;
+    font-size:18px;
+    margin-left:10px;
+}
+
+#winMessage{
+    position:fixed;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:50px;
+    font-weight:bold;
+    color:gold;
+    background:black;
+    padding:20px;
+    border-radius:15px;
+    z-index:9999;
+}
