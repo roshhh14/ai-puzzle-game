@@ -15,3 +15,4 @@ Features:
 ## Demo Video
 
 [▶ Watch Demo Video](demo.mp4)
+Project updated
