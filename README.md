@@ -14,4 +14,4 @@ Features:
 
 ## Demo Video
 
-demo.mp4
+[▶ Watch Demo Video](demo.mp4)
